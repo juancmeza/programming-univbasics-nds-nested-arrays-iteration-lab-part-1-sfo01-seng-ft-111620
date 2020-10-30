@@ -6,7 +6,7 @@ def find_even_values(src)
   for i in 0...src.length
     for j in 0...src[i].length 
       if src[i][j] % 2 == 0
-        even << srv[i][j]
+        even << src[i][j]
       end
     end
   end 
